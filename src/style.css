@@ -1,0 +1,40 @@
+body{
+    margin:0
+}
+
+#root{
+    margin:0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#inputText, #outputText{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+#inputText{
+    border-right: 1px solid black;
+}
+#input, #output{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin: 1rem 2rem 2rem 2rem;
+    padding: 2rem;
+    font-size: 1rem;
+    resize: none;
+}
+#output:disabled{
+    background-color: white;
+    color: black;
+}
+h1{
+    margin-left: 2rem;
+    font-family: "PT Serif";
+    font-weight: normal;
+}
